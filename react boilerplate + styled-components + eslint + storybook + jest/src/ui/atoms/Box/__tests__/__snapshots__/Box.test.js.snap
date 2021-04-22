@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui/atoms/Box Box should be rendered 1`] = `
+<div
+  className="Box-cYgLTd"
+>
+  It's the Box
+</div>
+`;
+
+exports[`ui/atoms/Box Box should be rendered with border 1`] = `
+.c0 {
+  border: 1px solid black;
+}
+
+<div
+  className="c0"
+>
+  It's the Box
+</div>
+`;
