@@ -5,11 +5,11 @@ import { Counter } from '../components/Counter';
 import { actions } from '../store/reducer';
 
 import {
-  CounterContainerProps,
+  getCounterContainerProps,
 } from '../store/selectors';
 
 export const CounterContainer = connect(
-  CounterContainerProps,
+  getCounterContainerProps,
   (dispatch) => ({
     onDecrement: () => dispatch(actions.decrement()),
     onIncrement: () => dispatch(actions.increment()),
