@@ -1,5 +1,12 @@
 import React from 'react';
 
-import { Box } from './ui';
+import { Box } from 'ui';
 
-export const App = () => (<Box>I am App!!!</Box>);
+import { SimpleFeature } from 'features';
+
+export const App = () => (<Box>
+    <Box>I am App!!!</Box>
+    <Box>
+        <SimpleFeature />
+    </Box>
+</Box>);

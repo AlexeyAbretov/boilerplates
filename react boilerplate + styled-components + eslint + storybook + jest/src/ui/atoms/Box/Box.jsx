@@ -69,6 +69,7 @@ Box.propTypes = {
 };
 
 Box.defaultProps = {
+  // display: 'flex'
 };
 
 Box.displayName = 'Box';

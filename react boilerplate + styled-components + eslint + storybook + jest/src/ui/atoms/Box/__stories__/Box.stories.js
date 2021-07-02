@@ -28,3 +28,17 @@ export const Examples = () => (
     <Box color="primary">Еще текст!!!</Box>
   </Box>
 );
+
+export const Breakpoints = () => (
+  <Box
+    border="1px solid black"
+    pl={{
+      _: 60, xs: 30, lg: 20, _2xl: 0,
+    }}
+    width="300px"
+    height="100px"
+    fontSize="14px"
+  >
+    Это текст!!!
+  </Box>
+);

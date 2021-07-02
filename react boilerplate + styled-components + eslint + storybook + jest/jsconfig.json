@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "jsx": "react",
-        "target": "es5",
+        "target": "ES6",
         "allowSyntheticDefaultImports": true,
         "baseUrl": "./src",
         "paths": {
@@ -9,13 +9,14 @@
                 "*"
             ]
         },
-        "module": "commonJS"
+        "module": "commonjs"
     },
     "exclude": [
         "node_modules",
-        "/node_modules/*"
+        "**/node_modules/*"
     ],
     "include": [
-      "src", "../"
+      "src/**/*.jsx",
+      "src/**/*.js"
     ]
-  }
+}
