@@ -1,3 +1,7 @@
 .app {
     color: red;
 }
+
+.text {
+    font-weight: bolder;
+}
